@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "alyssa:blocks/silicon_block"
+    "model": "alyssa:block/silicon_block"
   }
 }

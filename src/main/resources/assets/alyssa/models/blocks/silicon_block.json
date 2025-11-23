@@ -1,6 +1,0 @@
-{
-  "parent": "blocks/generated",
-  "textures": {
-    "layer0": "alyssa:blocks/silicon_block"
-  }
-}

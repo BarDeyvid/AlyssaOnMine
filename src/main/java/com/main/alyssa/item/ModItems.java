@@ -1,5 +1,6 @@
 package com.main.alyssa.item;
 
+import com.main.alyssa.item.custom.TooltipBlockItem;
 import com.main.alyssa.item.custom.TooltipItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -106,12 +107,17 @@ public class ModItems {
                     .setId(ResourceKey.create(Registries.BLOCK, registryName))
                     .destroyTime(2.0f)
                     .explosionResistance(10.0f)
-                    .sound(SoundType.GRAVEL)
+                    .sound(SoundType.AMETHYST)
                     .lightLevel(state -> 7)
             ));
 
     // And its Item
-    public static final DeferredItem<BlockItem> SILICON_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("silicon_block", SILICON_BLOCK); // Why's this so simple? Probably will break soon enough
+    public static final DeferredItem<Item> SILICON_BLOCK_ITEM = ITEMS.register("silicon_block",
+            registryName -> new TooltipBlockItem(
+                    SILICON_BLOCK.get(),
+                    new Item.Properties().setId(ResourceKey.create(Registries.ITEM, registryName)),
+                    "silicon_block"
+            ));
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ALYSSA_TAB = CREATIVE_MODE_TABS.register("alyssa_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("Alyssa"))

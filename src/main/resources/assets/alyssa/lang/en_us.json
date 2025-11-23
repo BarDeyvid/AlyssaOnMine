@@ -1,7 +1,10 @@
 {
   "itemGroup.alyssa": "Alyssa",
 
-  "block.alyssa.silicon_block": "Silicon Block",
+  "item.alyssa.silicon_block": "Silicon Block",
+  "tooltip.alyssa.silicon_block": "An Pure Silicon Block.",
+  "tooltip.alyssa.silicon_block.shift": "Press SHIFT for more information.",
+  "tooltip.alyssa.silicon_block.desc": "This Silicon Block may be fragile.",
 
   "item.alyssa.ai_chip": "AI Chip",
   "tooltip.alyssa.ai_chip": "An experimental AI chip.",
