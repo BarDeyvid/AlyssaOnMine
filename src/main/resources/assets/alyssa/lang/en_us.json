@@ -1,13 +1,48 @@
 {
   "itemGroup.alyssa": "Alyssa",
-  "block.alyssa.silicon_block": "Silicon Block",
+
+  "item.alyssa.silicon_block": "Silicon Block",
+  "tooltip.alyssa.silicon_block": "An Pure Silicon Block.",
+  "tooltip.alyssa.silicon_block.shift": "Press SHIFT for more information.",
+  "tooltip.alyssa.silicon_block.desc": "This Silicon Block may be fragile.",
+
   "item.alyssa.ai_chip": "AI Chip",
+  "tooltip.alyssa.ai_chip": "An experimental AI chip.",
+  "tooltip.alyssa.ai_chip.shift": "Press SHIFT for more information.",
+  "tooltip.alyssa.ai_chip.desc": "This prototype AI chip contains early cognitive routines.",
+
   "item.alyssa.ai_chip_v2": "AI Chip V2",
-  "alyssa.configuration.title": "Example Mod Configs",
-  "alyssa.configuration.section.alyssa.common.toml": "Example Mod Configs",
-  "alyssa.configuration.section.alyssa.common.toml.title": "Example Mod Configs",
-  "alyssa.configuration.items": "Item List",
-  "alyssa.configuration.logDirtBlock": "Log Dirt Block",
-  "alyssa.configuration.magicNumberIntroduction": "Magic Number Text",
-  "alyssa.configuration.magicNumber": "Magic Number"
+  "tooltip.alyssa.ai_chip_v2": "Advanced AI chip.",
+  "tooltip.alyssa.ai_chip_v2.shift": "Press SHIFT for additional details.",
+  "tooltip.alyssa.ai_chip_v2.desc": "Upgraded architecture with improved neural accelerators.",
+
+  "item.alyssa.heart_core": "Heart Core",
+  "tooltip.alyssa.heart_core": "The energy core that powers Alyssa.",
+  "tooltip.alyssa.heart_core.shift": "Press SHIFT for technical specs.",
+  "tooltip.alyssa.heart_core.desc": "Contains a hybrid fusion cell and adaptive neural stabilizers.",
+
+  "item.alyssa.memory_crystal": "Memory Crystal",
+  "tooltip.alyssa.memory_crystal": "The Memory Crystal that Alyssa remembers.",
+  "tooltip.alyssa.memory_crystal.shift": "Press SHIFT for technical specs.",
+  "tooltip.alyssa.memory_crystal.desc": "Crystallized fragment of memory. Stores data in its pure form.",
+
+  "item.alyssa.emotion_module": "Emotion Module",
+  "tooltip.alyssa.emotion_module": "The Emotion Module that Alyssa reacts to.",
+  "tooltip.alyssa.emotion_module.shift": "Press SHIFT for technical specs.",
+  "tooltip.alyssa.emotion_module.desc": "A calibrated emotional module. Contains affective parameters and predefined reactions.",
+
+  "item.alyssa.neural_core_fragment": "Neural Core Fragment",
+  "tooltip.alyssa.neural_core_fragment": "A piece of The Neural Network that is Alyssa.",
+  "tooltip.alyssa.neural_core_fragment.shift": "Press SHIFT for technical specs.",
+  "tooltip.alyssa.neural_core_fragment.desc": "Fragment of a neural core. Small part of a larger coherent network.",
+
+  "item.alyssa.led_iris_chip": "Led Iris Chip",
+  "tooltip.alyssa.led_iris_chip": "A piece of Alyssa's Irises",
+  "tooltip.alyssa.led_iris_chip.shift": "Press SHIFT for technical specs.",
+  "tooltip.alyssa.led_iris_chip.desc": "Optical chip containing drivers for complex visual patterns.",
+
+  "alyssa.configuration.title": "Alyssa Configs",
+  "alyssa.configuration.section.alyssa.common.toml": "Alyssa Configs",
+  "alyssa.configuration.section.alyssa.common.toml.title": "Alyssa Configs",
+  "alyssa.configuration.items": "Item List"
 }
