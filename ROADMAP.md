@@ -17,12 +17,12 @@
 
 ### ✔ 1.2 — Itens Básicos
 
-* [ ] Item: **Heart Core**
-* [ ] Item: **Memory Crystal**
-* [ ] Item: **Emotion Module**
-* [ ] Item: **Neural Core Fragment**
-* [ ] Item: **LED Iris Chip**
-* [ ] Tooltip avançado (shift info)
+* [X] Item: **Heart Core**
+* [X] Item: **Memory Crystal**
+* [X] Item: **Emotion Module**
+* [X] Item: **Neural Core Fragment**
+* [X] Item: **LED Iris Chip**
+* [X] Tooltip avançado (shift info)
 
 ### ✔ 1.3 — Blocos Básicos
 
