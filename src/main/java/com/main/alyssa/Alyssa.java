@@ -1,8 +1,8 @@
 package com.main.alyssa;
 
+import com.main.alyssa.item.ModItems;
 import org.slf4j.Logger;
-
-import com.mojang.logging.LogUtils;
+import org.slf4j.LoggerFactory;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -24,7 +24,8 @@ public class Alyssa {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "alyssa";
     // Directly reference a slf4j logger
-    public static final Logger LOGGER = LogUtils.getLogger();
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(MODID);
     // Create a Deferred Register to hold Blocks which will all be registered under the "alyssa" namespace
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
     // Create a Deferred Register to hold Items which will all be registered under the "alyssa" namespace

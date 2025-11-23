@@ -12,8 +12,8 @@
 * [X] Configurar ambiente (IntelliJ IDEA + JDK + NeoForge MDK)
 * [X] Criar estrutura de pacotes padrão
 * [X] Implementar classe principal do mod
-* [ ] adicionar logging SLF4J
-* [ ] Criar Creative Tab “Alyssa”
+* [X] adicionar logging SLF4J
+* [X] Criar Creative Tab “Alyssa”
 
 ### ✔ 1.2 — Itens Básicos
 

@@ -1,0 +1,13 @@
+{
+  "itemGroup.alyssa": "Alyssa",
+  "block.alyssa.silicon_block": "Silicon Block",
+  "item.alyssa.ai_chip": "AI Chip",
+  "item.alyssa.ai_chip_v2": "AI Chip V2",
+  "alyssa.configuration.title": "Example Mod Configs",
+  "alyssa.configuration.section.alyssa.common.toml": "Example Mod Configs",
+  "alyssa.configuration.section.alyssa.common.toml.title": "Example Mod Configs",
+  "alyssa.configuration.items": "Item List",
+  "alyssa.configuration.logDirtBlock": "Log Dirt Block",
+  "alyssa.configuration.magicNumberIntroduction": "Magic Number Text",
+  "alyssa.configuration.magicNumber": "Magic Number"
+}
